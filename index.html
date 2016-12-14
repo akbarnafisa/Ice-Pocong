@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script src="src/js/jquery-2.1.4.min.js"></script>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.7/react.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.7/react-dom.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/react-bootstrap/0.28.2/react-bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script src="src/js/functions.js"></script>
+	<link rel="stylesheet" type="text/css" href="src/css/main.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<title>Ice Poconk</title>
+	<link rel="icon" href="src/img/fav.png" type="image/gif" sizes="100x100">
+</head>
+<body>
+
+<div id="loader-wrapper">
+	<div id="loader">
+	<div style="    position: relative;left: -10px;">
+		<img alt="logo" src="src/img/icon.png">
+	</div>
+		<div class="loading" >
+			<div>
+				LOADING
+			</div>	
+		</div>
+	</div>
+	<div class="loader-section section-left"></div> 
+</div> 
+
+<div>
+	<div class="bodywrapper">
+		<div class="black2"></div>
+		<div class="nav2">
+			<div class="logo2">
+				<img    style="width: 100%;"   alt="logo" src="src/img/icon.png"></div>
+			<div class="nav-burger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+		<div class="navigation">
+			<div class="img-nav"><img alt="logo" src="src/img/icon.png"></div>
+			<ul class="nav-slide nav-active">
+				<div class="nav-wrapper">
+					<li><a href="#main-home">HOME</a></li>
+					<li><a href="#main-about">ABOUT</a></li>
+					<li><a href="#main-gallery">MENU</a></li>
+					<li><a href="#main-findus">FIND US</a></li>
+					<span></span>
+				</div>
+			</ul>
+		</div>
+		<div id="main-home"  style="width : 100vw ; height : 100vh ; overflow : hidden ; position : relative;     ">
+			<div class="landing-text">
+				<div>
+					ICE POCONK
+				</div>	
+				<a href="#main-about" class="arrowDown"></a>
+			</div>
+			<div class="header-wrapper">
+				<div class="header">
+				</div>
+				
+			</div>
+			<div class="nav-trigger"></div>
+		</div>
+
+		<div id="main-about" class="aboutwrapper">
+			<div class="container">
+					<div id="slide1" class="row " >
+						<div class="col-md-6 slideUp">
+							<div class="thumbnail">
+								<img alt="about" src="src/img/about2.jpg">
+								<div class="bar"></div>
+							</div>
+						</div>
+						<div class="col-md-6 slideUp">
+							<div class="thumbnail">
+								<img alt="about" src="src/img/about1.jpg">
+								<div class="bar"></div>
+							</div>
+						</div>
+					</div>
+					<div id="slide2" class="row description slideUp">
+						<div class="col-md-3 slideUp">ICE <span>POCONK</span> <hr></div>
+						<div class="col-md-4 slideUp">icepoconk
+						</div>
+						<div class="col-md-4 slideUp">
+							icepoconk
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="main-gallery" class="slide3 slideUp">
+
+				
+			</div>
+
+			<div id="myCarousel" class="carousel slide " data-ride="carousel" >
+			  <!-- Indicators -->
+			  <ol class="carousel-indicators">
+			    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			    <li data-target="#myCarousel" data-slide-to="1"></li>
+			    <li data-target="#myCarousel" data-slide-to="2"></li>
+			    <li data-target="#myCarousel" data-slide-to="3"></li>
+			  </ol>
+
+			  <!-- Wrapper for slides -->
+			  	<div class="carousel-inner slide4 slideUp" role="listbox">
+
+				    <div class="item active">
+				     <div class="slidercontainer">
+				    	<div class="sliderwrapper">
+				    		<img src="src/img/menu9.jpg" alt="News">
+				    	</div>
+						<div class="sliderdesc">
+							<div class="news">MENU FAVORIT</div>
+							<div class="date">
+							Ice Poconk blablabla <br>  
+							</div>
+							<hr>
+							<div class="slider-desc">
+								icepoconk
+							</div>
+						</div>
+						</div>
+				    </div>
+
+				    <div class="item">
+				    	<div class="slidercontainer">
+					      <div class="sliderwrapper">
+					      	<img src="src/img/menu3.jpg" alt="News">
+					      </div>
+					      <div class="sliderdesc">
+					      	<div class="news">MENU FAVORIT</div>
+					      	<div class="date">
+					      		Ice Poconk blablabla <br> 
+					      	</div>
+					      	<hr>
+					      	<div class="slider-desc">
+					      		icepoconk
+					      	</div>
+					      </div>
+				      </div>
+				    </div>
+
+				    <div class="item">
+						<div class="slidercontainer">
+							<div class="sliderwrapper">
+								<img src="src/img/menu1.jpg" alt="News">
+							</div>
+							<div class="sliderdesc">
+								<div class="news">MENU FAVORIT</div>
+								<div class="date">
+								Ice Poconk blablabla <br>  
+								</div>
+								<hr>
+								<div class="slider-desc">
+								icepoconk
+								</div>
+							</div>
+						</div>
+				    </div>
+				   
+
+					<div class="item">
+						<div class="slidercontainer">
+							<div class="sliderwrapper">
+								<img src="src/img/menu2.jpg" alt="News">
+							</div>
+							<div class="sliderdesc">
+								<div class="news">MENU FAVORIT</div>
+								<div class="date">
+								Ice Poconk blablabla <br>
+								</div>
+								<hr>
+								<div class="slider-desc">
+								icepoconk
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				  <!-- Left and right controls -->
+				  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				  	<div>
+				  		<span></span>
+				  		 <span></span>
+				  	</div>
+				    
+				  </a>
+				  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				  	<div>
+				  		<span></span>
+				  		 <span></span>
+				  	</div>
+				  </a>
+				
+			</div>
+
+			<div id="main-findus">
+				<div class="findus-dec slideUp">
+					<div class="findus-header">FIND US</div>
+					<div class="findus-place">Jl. gatot subroto no.198 sraten , solo <br> 0271-663072</div>
+					<div class="findus-date"><span>SENIN-MINGGU</span><br> <span>09:00 - 22:00 WIB</span></div>
+					<div class="findus-follow">FOLLOW US
+						<div class="findus-icon">
+							<a href="https://www.facebook.com/icepoconk/" target="_blank">
+								<div class="icon-wrapper">
+									<div class="icon-box2">
+										<i class="fa fa-facebook"></i>
+									</div>
+									<div class="icon-box">
+										<i class="fa fa-facebook"></i>
+									</div>
+									<div class="icon-box3"></div>
+								</div>
+							</a>
+							<a href="https://twitter.com/icepoconk_solo" target="_blank">
+								<div class="icon-wrapper">
+									<div class="icon-box2">
+										<i class="fa fa-twitter"></i>
+									</div>
+									<div class="icon-box">
+										<i class="fa fa-twitter"></i>
+									</div>
+									<div class="icon-box3"></div>
+								</div>
+							</a>
+							
+							<a href="https://www.instagram.com/icepoconk/" target="_blank">
+								<div class="icon-wrapper">
+									<div class="icon-box2">
+										<i class="fa fa-instagram"></i>
+									</div>
+									<div class="icon-box">
+										<i class="fa fa-instagram"></i>
+									</div>
+									<div class="icon-box3"></div>
+								</div>
+							</a>
+
+						</div>
+					</div>
+				</div>
+				<div class="mapwrapper slideUp">
+					<div id="map">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.969320752398!2d110.81679921441321!3d-7.57831837696503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a167aa9039f8b%3A0x7de91cf49460a8d8!2sIce+PoconK!5e0!3m2!1sen!2sid!4v1454478305357" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+
+			<div class="footer">
+			 <p> Ice Poconk © 2016 All rights reserved. Design and development by  <a href="#">Ice Poconk</a></p>
+			</div>
+		
+
+	</div>
+
+</div>
+<script type="text/babel">
+
+	var Galery = React.createClass({
+		render : function(){
+			return (
+					<div>
+						<div className="option-view">
+							<div className="FTP">MENU</div>
+							<div className="option">
+								<div className="optionMenu active" id="option-1">LIST</div>
+								<div className="optionMenu" id="option-2">GRID</div>
+							</div>
+						</div>
+						<div className="flex">
+							{MenuList.map(function(content){
+							  return <div key={content.id} className="imgMenu">
+							  			<div className="thumbnail">
+							  				<img alt="menu" src={content.url}/>
+							  			</div>
+							  			<div className="imgOverlay" ><div><span/><span/></div></div>
+							  			<div className="zoom">
+							  				<Example name={content.name} price={content.harga} desc={content.desc} img={content.url} ><i className="fa fa-search-plus"></i></Example>
+							  			</div>
+							  			<div className="caption">
+							  				{content.name}
+							  			</div>
+							  		 </div>
+		
+							})}
+						</div>
+					</div>
+				)
+		}
+	})
+
+	const Example = React.createClass({
+	  getInitialState() {
+	    return { showModal: false };
+	  },
+	  close() {
+	    this.setState({ showModal: false });
+	  },
+	  open() {
+	    this.setState({ showModal: true });
+	  },
+	  render() {
+	    let popover = <ReactBootstrap.Popover title="popover">very popover. such engagement</ReactBootstrap.Popover>;
+	    let tooltip = <ReactBootstrap.Tooltip>wow.</ReactBootstrap.Tooltip>;
+	    return (
+	      <div>
+
+	        <div
+	          onClick={this.open}
+	        >
+	          {this.props.children}
+	        </div>
+
+	        <ReactBootstrap.Modal show={this.state.showModal} onHide={this.close}>
+	          <ReactBootstrap.Modal.Header >
+	            <ReactBootstrap.Modal.Title>{this.props.name}</ReactBootstrap.Modal.Title>
+	            <span/>
+	          </ReactBootstrap.Modal.Header>
+	          <ReactBootstrap.Modal.Body>
+	          	<div className="wrapper-modals">
+	          		<div className="img-modals">
+	          			<img alt="menu" src={this.props.img}/>
+	          		</div>
+		          	<div className="desc-modals">
+		          		<div className="desc-name">{this.props.name} </div>
+		          		<div className="desc-price">{this.props.price} </div>
+		          		<div className="desc-desc">{this.props.desc} </div>
+		          	</div>
+      			</div>
+
+	          </ReactBootstrap.Modal.Body>
+	          <ReactBootstrap.Modal.Footer>
+	            <ReactBootstrap.Button onClick={this.close}>Close</ReactBootstrap.Button>
+	          </ReactBootstrap.Modal.Footer>
+	        </ReactBootstrap.Modal>
+	      </div>
+	    );
+	  }
+	});
+
+
+	var MenuList = [
+	    {	id : 1 , 
+    		url : 'src/img/menu1.jpg' ,
+    		name : 'Soup Tahu' , 
+		 	harga : 'Rp. 15,000',
+    		desc : 'icepoconk' ,
+    		},
+
+	    {	id : 2 , 
+    		url : 'src/img/menu9.jpg' ,
+    		name : 'Roti Bakar' , 
+		 	harga : 'Rp. 9,000',
+    		desc : 'icepoconk' ,
+    		},
+
+	    {	id : 3, 
+    		url : 'src/img/menu3.jpg' ,
+    		name : 'Gedang Goreng' , 
+		 	harga : 'Rp. 7,000',
+    		desc : 'icepoconk' ,
+    		},
+
+	    {	id : 4 , 
+    		url : 'src/img/menu4.jpg' ,
+    		name : 'Chicken Nugget' , 
+		 	harga : 'Rp. 15,000',
+    		desc : 'icepoconk' ,
+    		},
+
+	    {	id : 5 , 
+    		url : 'src/img/menu5.jpg' ,
+    		name : 'Sandwich' , 
+		 	harga : 'Rp. 9,000',
+    		desc : 'icepoconk' ,
+    		},
+
+	    {	id : 6 , 
+    		url : 'src/img/menu6.jpg' ,
+    		name : 'Tahu Goreng' , 
+		 	harga : 'Rp. 5,000',
+    		desc : 'icepoconk' ,
+    		},
+
+	    {	id : 7 , 
+    		url : 'src/img/menu7.jpg' ,
+    		name : 'Sosis Bakar' , 
+		 	harga : 'Rp. 12,000',
+    		desc : 'icepoconk' ,
+    		},
+
+	    {	id : 8 , 
+    		url : 'src/img/menu8.jpg' ,
+    		name : 'Kentang Goreng' , 
+		 	harga : 'Rp. 9,000',
+    		desc : 'icepoconk' ,
+    		},
+
+	    {	id : 9 , 
+    		url : 'src/img/menu2.jpg' ,
+    		name : 'Es Millo' , 
+		 	harga : 'Rp. 5,000',
+    		desc : 'icepoconk' ,
+    		},
+
+    		{	id : 10 , 
+    		url : 'src/img/landing.jpg' ,
+    		name : 'Es Poconk' , 
+		 	harga : 'Rp. 5,000',
+    		desc : 'icepoconk' ,
+    		},	
+    		 {	id : 11 , 
+    		url : 'src/img/menu2.jpg' ,
+    		name : 'Es Millo' , 
+		 	harga : 'Rp. 5,000',
+    		desc : 'icepoconk' ,
+    		},			   
+
+	    	    
+	    ];
+
+
+	ReactDOM.render(
+	    <Galery/>,
+	    document.getElementById('main-gallery')
+	);
+
+</script>
+</body>
+</html>
